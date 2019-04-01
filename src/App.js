@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Clock from './component/Clock'
+import Toggle from './component/Toggle';
+import LoginControl from './component/LoginControl';
+import NameForm from './component/NameForm';
+import EssayForm from './component/EssayForm';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="learn">Let us begin!</div>
+        <Clock />
+        <Toggle />
+        <LoginControl />
+        <NameForm />
+        <EssayForm />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -24,5 +35,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
