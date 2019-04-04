@@ -6,6 +6,8 @@ import Toggle from './component/Toggle';
 import LoginControl from './component/LoginControl';
 import NameForm from './component/NameForm';
 import EssayForm from './component/EssayForm';
+import Reservation from './component/Reservation';
+import Calculator from './component/Calculator';
 
 class App extends Component {
   render() {
@@ -14,9 +16,11 @@ class App extends Component {
         <div className="learn">Let us begin!</div>
         <Clock />
         <Toggle />
+        <Calculator />
         <LoginControl />
         <NameForm />
         <EssayForm />
+        <Reservation />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
